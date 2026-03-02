@@ -241,6 +241,8 @@
     "trackListLabelText": "Liste de suivi",
     "tracklistPlaceholderText": "Gérez votre liste de suivi efficacement. Appuyez sur + (en haut à droite) pour ajouter un numéro, faites glisser un élément de la liste vers la gauche et appuyez sur Supprimer pour ne plus suivre.",
     "removeAllText": "tout supprimer",
+    "confirmRemoveAllText": "Tout supprimer",
+    "confirmRemoveAllDescriptionText": "Voulez-vous vraiment supprimer tous les contacts suivis ? Cette action est irréversible.",
     "trackContactLabelText": "Numéro de téléphone",
     "trackContactText": "Suivre un contact",
     "removeText": "Supprimer",
