@@ -20,7 +20,6 @@ import 'package:call_tracker/screens/settings/fragments/export_info/json_fields.
 import 'package:call_tracker/screens/tracklist/fragments/add_new_number_to_track_list_dialog.dart';
 import 'package:call_tracker/utils/file_types.dart';
 import 'package:call_tracker/utils/generate_files.dart';
-import 'package:call_tracker/utils/phone_formatter.dart';
 import 'package:call_tracker/utils/snackbar.dart';
 import 'package:call_tracker/utils/exported_filename_formatter.dart';
 import 'package:share_plus/share_plus.dart';
@@ -396,21 +395,19 @@ class _ScreenManagerState extends ConsumerState<ScreenManager> {
 
   void registerNewTrackListItem(currentContext) async {
     try {
-      String? newNumber = await showAdaptiveDialog<String>(
+      String? newContactName = await showAdaptiveDialog<String>(
         context: currentContext,
         builder: (context) {
-          return AddNewNumberToTrackListDialog(
-            currentNumbers: ref.read(trackListProvider).value ?? [],
+          return AddNewContactToTrackListDialog(
+            currentContacts: ref.read(trackListProvider).value ?? [],
           );
         },
       );
 
-      if (newNumber != null) {
-        newNumber = PhoneFormatter.parsePhoneNumber(newNumber);
-
+      if (newContactName != null) {
         ref
             .read(trackListProvider.notifier)
-            .registerNumberIfNotPresent(newNumber);
+            .registerContactIfNotPresent(newContactName);
       }
     } catch (E) {
       if (mounted) {
@@ -447,7 +444,7 @@ class _ScreenManagerState extends ConsumerState<ScreenManager> {
                   ),
                 ),
                 actions: [
-                  ...(ref.watch(screenIndexProvider) == 0
+                  ...(ref.watch(screenIndexProvider) == 1
                       ? [
                           IconButton(
                             tooltip: AppLocalizations.of(context).downloadText,
@@ -481,7 +478,7 @@ class _ScreenManagerState extends ConsumerState<ScreenManager> {
                             ),
                         ]
                       : []),
-                  if (ref.watch(screenIndexProvider) == 1 &&
+                  if (ref.watch(screenIndexProvider) == 2 &&
                       ref.watch(logsFilterProvider).areFiltersApplied)
                     IconButton(
                       tooltip: AppLocalizations.of(context).clearFiltersTooltip,
@@ -490,8 +487,8 @@ class _ScreenManagerState extends ConsumerState<ScreenManager> {
                       },
                       icon: const Icon(Icons.filter_alt_off),
                     ),
-                  if (ref.watch(screenIndexProvider) == 1 ||
-                      ref.watch(screenIndexProvider) == 0)
+                  if (ref.watch(screenIndexProvider) == 2 ||
+                      ref.watch(screenIndexProvider) == 1)
                     IconButton(
                       tooltip: AppLocalizations.of(context).filterText,
                       onPressed: showFiltersModal,
@@ -505,7 +502,7 @@ class _ScreenManagerState extends ConsumerState<ScreenManager> {
                             )
                           : const Icon(Icons.filter_alt_rounded),
                     ),
-                  if (ref.watch(screenIndexProvider) == 2)
+                  if (ref.watch(screenIndexProvider) == 0)
                     IconButton(
                       tooltip: AppLocalizations.of(context).addText,
                       onPressed:

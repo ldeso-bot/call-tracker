@@ -787,13 +787,13 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      'Manage your track list efficiently. Tap + (top-right) to add a number, swipe left on a list item and tap Remove to untrack.';
+      'Manage your tracked contacts efficiently. Tap + (top-right) to add a contact, swipe left on a list item and tap Remove to untrack.';
 
   @override
   String get removeAllText => 'remove all';
 
   @override
-  String get trackContactLabelText => 'Phone Number';
+  String get trackContactLabelText => 'Contact Name';
 
   @override
   String get trackContactText => 'Track a Contact';
@@ -831,13 +831,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addText => 'Add';
 
   @override
-  String get numberAlreadyAddedErrorText => 'Number already added';
+  String get numberAlreadyAddedErrorText => 'Contact already added';
 
   @override
   String get invalidNumberErrorText => 'Invalid phone number';
 
   @override
-  String get emptyPhoneNumberErrorText => 'Enter a phone number';
+  String get emptyPhoneNumberErrorText => 'Enter a contact name';
 
   @override
   String get trackNumberErrorText =>

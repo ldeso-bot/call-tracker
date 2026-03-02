@@ -1569,7 +1569,7 @@ abstract class AppLocalizations {
   /// No description provided for @tracklistPlaceholderText.
   ///
   /// In en, this message translates to:
-  /// **'Manage your track list efficiently. Tap + (top-right) to add a number, swipe left on a list item and tap Remove to untrack.'**
+  /// **'Manage your tracked contacts efficiently. Tap + (top-right) to add a contact, swipe left on a list item and tap Remove to untrack.'**
   String get tracklistPlaceholderText;
 
   /// No description provided for @removeAllText.
@@ -1581,7 +1581,7 @@ abstract class AppLocalizations {
   /// No description provided for @trackContactLabelText.
   ///
   /// In en, this message translates to:
-  /// **'Phone Number'**
+  /// **'Contact Name'**
   String get trackContactLabelText;
 
   /// No description provided for @trackContactText.
@@ -1653,7 +1653,7 @@ abstract class AppLocalizations {
   /// No description provided for @numberAlreadyAddedErrorText.
   ///
   /// In en, this message translates to:
-  /// **'Number already added'**
+  /// **'Contact already added'**
   String get numberAlreadyAddedErrorText;
 
   /// No description provided for @invalidNumberErrorText.
@@ -1665,7 +1665,7 @@ abstract class AppLocalizations {
   /// No description provided for @emptyPhoneNumberErrorText.
   ///
   /// In en, this message translates to:
-  /// **'Enter a phone number'**
+  /// **'Enter a contact name'**
   String get emptyPhoneNumberErrorText;
 
   /// No description provided for @trackNumberErrorText.
