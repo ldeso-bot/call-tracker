@@ -796,13 +796,13 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      'Zarządzaj swoją listą śledzenia efektywnie. Stuknij + (w prawym górnym rogu), aby dodać numer, przesuń w lewo element listy i stuknij Usuń, aby przestać śledzić.';
+      'Zarządzaj swoją listą śledzenia efektywnie. Stuknij + (w prawym górnym rogu), aby dodać kontakt, przesuń w lewo element listy i stuknij Usuń, aby przestać śledzić.';
 
   @override
   String get removeAllText => 'usuń wszystko';
 
   @override
-  String get trackContactLabelText => 'Numer telefonu';
+  String get trackContactLabelText => 'Nazwa kontaktu';
 
   @override
   String get trackContactText => 'Śledź kontakt';
@@ -840,13 +840,13 @@ class AppLocalizationsPl extends AppLocalizations {
   String get addText => 'Dodaj';
 
   @override
-  String get numberAlreadyAddedErrorText => 'Numer już dodany';
+  String get numberAlreadyAddedErrorText => 'Kontakt już dodany';
 
   @override
   String get invalidNumberErrorText => 'Nieprawidłowy numer telefonu';
 
   @override
-  String get emptyPhoneNumberErrorText => 'Wprowadź numer telefonu';
+  String get emptyPhoneNumberErrorText => 'Wprowadź nazwę kontaktu';
 
   @override
   String get trackNumberErrorText =>

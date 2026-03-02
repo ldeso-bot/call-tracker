@@ -794,13 +794,13 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      'Эффективно управляйте своим списком отслеживания. Нажмите + (в правом верхнем углу), чтобы добавить номер, проведите влево по элементу списка и нажмите Удалить, чтобы перестать отслеживать.';
+      'Эффективно управляйте своим списком отслеживания. Нажмите + (в правом верхнем углу), чтобы добавить контакт, проведите влево по элементу списка и нажмите Удалить, чтобы перестать отслеживать.';
 
   @override
   String get removeAllText => 'удалить всё';
 
   @override
-  String get trackContactLabelText => 'Номер телефона';
+  String get trackContactLabelText => 'Имя контакта';
 
   @override
   String get trackContactText => 'Отслеживать контакт';
@@ -838,13 +838,13 @@ class AppLocalizationsRu extends AppLocalizations {
   String get addText => 'Добавить';
 
   @override
-  String get numberAlreadyAddedErrorText => 'Номер уже добавлен';
+  String get numberAlreadyAddedErrorText => 'Контакт уже добавлен';
 
   @override
   String get invalidNumberErrorText => 'Неверный номер телефона';
 
   @override
-  String get emptyPhoneNumberErrorText => 'Введите номер телефона';
+  String get emptyPhoneNumberErrorText => 'Введите имя контакта';
 
   @override
   String get trackNumberErrorText =>

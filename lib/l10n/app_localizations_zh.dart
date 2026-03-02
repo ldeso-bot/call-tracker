@@ -745,13 +745,13 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      '高效管理您的追踪列表。点击右上角 + 添加号码，左滑列表项并点击移除以取消追踪。';
+      '高效管理您的追踪列表。点击右上角 + 添加联系人，左滑列表项并点击移除以取消追踪。';
 
   @override
   String get removeAllText => '全部移除';
 
   @override
-  String get trackContactLabelText => '电话号码';
+  String get trackContactLabelText => '联系人姓名';
 
   @override
   String get trackContactText => '追踪联系人';
@@ -789,13 +789,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get addText => '添加';
 
   @override
-  String get numberAlreadyAddedErrorText => '号码已添加';
+  String get numberAlreadyAddedErrorText => '联系人已添加';
 
   @override
   String get invalidNumberErrorText => '无效的电话号码';
 
   @override
-  String get emptyPhoneNumberErrorText => '请输入电话号码';
+  String get emptyPhoneNumberErrorText => '请输入联系人姓名';
 
   @override
   String get trackNumberErrorText => '添加新追踪联系人时出错';

@@ -796,13 +796,13 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      'Gerencie sua lista de acompanhamento de forma eficiente. Toque em + (canto superior direito) para adicionar um número, deslize um item da lista para a esquerda e toque em Remover para parar de acompanhar.';
+      'Gerencie sua lista de acompanhamento de forma eficiente. Toque em + (canto superior direito) para adicionar um contato, deslize um item da lista para a esquerda e toque em Remover para parar de acompanhar.';
 
   @override
   String get removeAllText => 'remover tudo';
 
   @override
-  String get trackContactLabelText => 'Número de telefone';
+  String get trackContactLabelText => 'Nome do contato';
 
   @override
   String get trackContactText => 'Rastrear um contato';
@@ -841,13 +841,13 @@ class AppLocalizationsPt extends AppLocalizations {
   String get addText => 'Adicionar';
 
   @override
-  String get numberAlreadyAddedErrorText => 'Número já adicionado';
+  String get numberAlreadyAddedErrorText => 'Contato já adicionado';
 
   @override
   String get invalidNumberErrorText => 'Número de telefone inválido';
 
   @override
-  String get emptyPhoneNumberErrorText => 'Digite um número de telefone';
+  String get emptyPhoneNumberErrorText => 'Digite um nome de contato';
 
   @override
   String get trackNumberErrorText =>

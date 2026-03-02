@@ -752,13 +752,13 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      '트랙리스트를 효율적으로 관리하세요. 번호를 추가하려면 오른쪽 상단의 +를 누르고, 리스트 항목을 왼쪽으로 스와이프한 후 제거를 눌러 추적을 해제하세요.';
+      '트랙리스트를 효율적으로 관리하세요. 연락처를 추가하려면 오른쪽 상단의 +를 누르고, 리스트 항목을 왼쪽으로 스와이프한 후 제거를 눌러 추적을 해제하세요.';
 
   @override
   String get removeAllText => '모두 제거';
 
   @override
-  String get trackContactLabelText => '전화번호';
+  String get trackContactLabelText => '연락처 이름';
 
   @override
   String get trackContactText => '연락처 추적';
@@ -796,13 +796,13 @@ class AppLocalizationsKo extends AppLocalizations {
   String get addText => '추가';
 
   @override
-  String get numberAlreadyAddedErrorText => '번호가 이미 추가됨';
+  String get numberAlreadyAddedErrorText => '연락처가 이미 추가됨';
 
   @override
   String get invalidNumberErrorText => '잘못된 전화번호';
 
   @override
-  String get emptyPhoneNumberErrorText => '전화번호를 입력하세요';
+  String get emptyPhoneNumberErrorText => '연락처 이름을 입력하세요';
 
   @override
   String get trackNumberErrorText => '새 트랙 연락처를 추가하는 중 오류가 발생했습니다';
