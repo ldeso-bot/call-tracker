@@ -444,7 +444,7 @@ class _ScreenManagerState extends ConsumerState<ScreenManager> {
                   ),
                 ),
                 actions: [
-                  ...(ref.watch(screenIndexProvider) == 1
+                  ...(ref.watch(screenIndexProvider) == 0
                       ? [
                           IconButton(
                             tooltip: AppLocalizations.of(context).downloadText,
@@ -478,7 +478,7 @@ class _ScreenManagerState extends ConsumerState<ScreenManager> {
                             ),
                         ]
                       : []),
-                  if (ref.watch(screenIndexProvider) == 2 &&
+                  if (ref.watch(screenIndexProvider) == 1 &&
                       ref.watch(logsFilterProvider).areFiltersApplied)
                     IconButton(
                       tooltip: AppLocalizations.of(context).clearFiltersTooltip,
@@ -487,8 +487,8 @@ class _ScreenManagerState extends ConsumerState<ScreenManager> {
                       },
                       icon: const Icon(Icons.filter_alt_off),
                     ),
-                  if (ref.watch(screenIndexProvider) == 2 ||
-                      ref.watch(screenIndexProvider) == 1)
+                  if (ref.watch(screenIndexProvider) == 1 ||
+                      ref.watch(screenIndexProvider) == 0)
                     IconButton(
                       tooltip: AppLocalizations.of(context).filterText,
                       onPressed: showFiltersModal,
@@ -502,7 +502,7 @@ class _ScreenManagerState extends ConsumerState<ScreenManager> {
                             )
                           : const Icon(Icons.filter_alt_rounded),
                     ),
-                  if (ref.watch(screenIndexProvider) == 0)
+                  if (ref.watch(screenIndexProvider) == 2)
                     IconButton(
                       tooltip: AppLocalizations.of(context).addText,
                       onPressed:

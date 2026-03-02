@@ -24,25 +24,25 @@ class AppInterface extends ConsumerWidget {
           initialIndex: 0,
           items: <Screen>[
             Screen(
-              label: AppLocalizations.of(context).trackListLabelText,
               index: 0,
-              icon: Icons.view_list,
-              selectedIcon: Icons.view_list,
-              screen: TrackListScreen(),
-            ),
-            Screen(
-              index: 1,
               label: AppLocalizations.of(context).logsScreenLabelText,
               icon: Icons.call_outlined,
               selectedIcon: Icons.call,
               screen: HomeScreen(),
             ),
             Screen(
-              index: 2,
+              index: 1,
               label: AppLocalizations.of(context).analyticsScreenLabelText,
               icon: Icons.pie_chart_outline,
               selectedIcon: Icons.pie_chart,
               screen: AnalyticsScreen(),
+            ),
+            Screen(
+              label: AppLocalizations.of(context).trackListLabelText,
+              index: 2,
+              icon: Icons.view_list,
+              selectedIcon: Icons.view_list,
+              screen: TrackListScreen(),
             ),
             Screen(
               label: AppLocalizations.of(context).settingsScreenLabelText,

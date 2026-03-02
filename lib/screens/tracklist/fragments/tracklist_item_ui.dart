@@ -123,7 +123,7 @@ class _TracklistItemUiState extends ConsumerState<TracklistItemUi> {
                   trailing: phoneNumber != null
                       ? IconButton(
                           onPressed: () async {
-                            ref.read(screenIndexProvider.notifier).setIndex(1);
+                            ref.read(screenIndexProvider.notifier).setIndex(0);
                             await ref
                                 .read(logsFilterProvider.notifier)
                                 .filterByPhoneNumber(
