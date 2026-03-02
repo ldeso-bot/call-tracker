@@ -745,7 +745,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      '高效管理您的追踪列表。点击右上角 + 添加联系人，左滑列表项并点击移除以取消追踪。';
+      '高效管理您的追踪联系人。点击右上角 + 添加联系人，左滑列表项并点击移除以取消追踪。';
 
   @override
   String get removeAllText => '全部移除';

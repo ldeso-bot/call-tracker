@@ -752,7 +752,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      'トラックリストを効率的に管理します。連絡先を追加するには右上の + をタップし、リスト項目を左にスワイプして「削除」をタップして追跡を解除します。';
+      '追跡中の連絡先を効率的に管理します。連絡先を追加するには右上の + をタップし、リスト項目を左にスワイプして「削除」をタップして追跡を解除します。';
 
   @override
   String get removeAllText => 'すべて削除';

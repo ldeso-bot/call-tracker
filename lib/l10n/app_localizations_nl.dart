@@ -793,7 +793,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      'Beheer je volglijst efficiënt. Tik op + (rechtsboven) om een contact toe te voegen, veeg een lijstitem naar links en tik op Verwijderen om het volgen te stoppen.';
+      'Beheer je gevolgde contacten efficiënt. Tik op + (rechtsboven) om een contact toe te voegen, veeg een lijstitem naar links en tik op Verwijderen om het volgen te stoppen.';
 
   @override
   String get removeAllText => 'alles verwijderen';

@@ -804,7 +804,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      'Gérez votre liste de suivi efficacement. Appuyez sur + (en haut à droite) pour ajouter un contact, faites glisser un élément de la liste vers la gauche et appuyez sur Supprimer pour ne plus suivre.';
+      'Gérez vos contacts suivis efficacement. Appuyez sur + (en haut à droite) pour ajouter un contact, faites glisser un élément de la liste vers la gauche et appuyez sur Supprimer pour ne plus suivre.';
 
   @override
   String get removeAllText => 'tout supprimer';

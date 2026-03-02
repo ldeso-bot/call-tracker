@@ -239,7 +239,7 @@
   "disableLogsSharingText": "共有ボタンを非表示",
   "disableLogsSharingSubText": "通話ログで共有ボタンを隠す",
   "trackListLabelText": "トラックリスト",
-  "tracklistPlaceholderText": "トラックリストを効率的に管理します。連絡先を追加するには右上の + をタップし、リスト項目を左にスワイプして「削除」をタップして追跡を解除します。",
+  "tracklistPlaceholderText": "追跡中の連絡先を効率的に管理します。連絡先を追加するには右上の + をタップし、リスト項目を左にスワイプして「削除」をタップして追跡を解除します。",
   "removeAllText": "すべて削除",
   "trackContactLabelText": "連絡先名",
   "trackContactText": "連絡先を追跡",

@@ -797,7 +797,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      'Verwalten Sie Ihre Trackliste effizient. Tippen Sie auf + (oben rechts), um einen Kontakt hinzuzufügen, wischen Sie nach links auf einem Listeneintrag und tippen Sie auf Entfernen, um die Verfolgung zu stoppen.';
+      'Verwalten Sie Ihre verfolgten Kontakte effizient. Tippen Sie auf + (oben rechts), um einen Kontakt hinzuzufügen, wischen Sie nach links auf einem Listeneintrag und tippen Sie auf Entfernen, um die Verfolgung zu stoppen.';
 
   @override
   String get removeAllText => 'alle entfernen';

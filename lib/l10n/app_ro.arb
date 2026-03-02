@@ -239,7 +239,7 @@
   "disableLogsSharingText": "Ascunde butonul de partajare",
   "disableLogsSharingSubText": "Ascunde butonul de partajare din jurnalul de apeluri",
   "trackListLabelText": "Lista de urmărire",
-  "tracklistPlaceholderText": "Gestionează-ți lista de urmărire eficient. Apasă + (în dreapta sus) pentru a adăuga un contact, glisează spre stânga pe un element din listă și apasă Elimină pentru a opri urmărirea.",
+  "tracklistPlaceholderText": "Gestionează-ți contactele urmărite eficient. Apasă + (în dreapta sus) pentru a adăuga un contact, glisează spre stânga pe un element din listă și apasă Elimină pentru a opri urmărirea.",
   "removeAllText": "elimină tot",
   "trackContactLabelText": "Numele contactului",
   "trackContactText": "Urmărește un contact",

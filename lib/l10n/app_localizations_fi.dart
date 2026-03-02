@@ -791,7 +791,7 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      'Hallitse seurantalistaasi tehokkaasti. Napauta + (oikeassa yläkulmassa) lisätäksesi kontaktin, pyyhkäise vasemmalle listan kohteessa ja napauta Poista poistaaksesi seurannan.';
+      'Hallitse seurattavia kontaktejasi tehokkaasti. Napauta + (oikeassa yläkulmassa) lisätäksesi kontaktin, pyyhkäise vasemmalle listan kohteessa ja napauta Poista poistaaksesi seurannan.';
 
   @override
   String get removeAllText => 'poista kaikki';

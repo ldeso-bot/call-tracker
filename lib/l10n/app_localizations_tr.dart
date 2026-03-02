@@ -791,7 +791,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      'Takip listenizi verimli bir şekilde yönetin. Kişi eklemek için sağ üstteki + simgesine dokunun, bir liste öğesini sola kaydırın ve Takibi Kaldır\'a dokunarak takipten çıkarın.';
+      'Takip ettiğiniz kişileri verimli bir şekilde yönetin. Kişi eklemek için sağ üstteki + simgesine dokunun, bir liste öğesini sola kaydırın ve Takibi Kaldır\'a dokunarak takipten çıkarın.';
 
   @override
   String get removeAllText => 'hepsini kaldır';

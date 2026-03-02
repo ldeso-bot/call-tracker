@@ -239,7 +239,7 @@
     "disableLogsSharingText": "Piilota jakopainike",
     "disableLogsSharingSubText": "Piilota jakopainike puhelulokeissa",
     "trackListLabelText": "Seurantalista",
-    "tracklistPlaceholderText": "Hallitse seurantalistaasi tehokkaasti. Napauta + (oikeassa yläkulmassa) lisätäksesi kontaktin, pyyhkäise vasemmalle listan kohteessa ja napauta Poista poistaaksesi seurannan.",
+    "tracklistPlaceholderText": "Hallitse seurattavia kontaktejasi tehokkaasti. Napauta + (oikeassa yläkulmassa) lisätäksesi kontaktin, pyyhkäise vasemmalle listan kohteessa ja napauta Poista poistaaksesi seurannan.",
     "removeAllText": "poista kaikki",
     "trackContactLabelText": "Kontaktin nimi",
     "trackContactText": "Seuraa kontaktia",

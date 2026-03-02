@@ -797,7 +797,7 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      'Gestionează-ți lista de urmărire eficient. Apasă + (în dreapta sus) pentru a adăuga un contact, glisează spre stânga pe un element din listă și apasă Elimină pentru a opri urmărirea.';
+      'Gestionează-ți contactele urmărite eficient. Apasă + (în dreapta sus) pentru a adăuga un contact, glisează spre stânga pe un element din listă și apasă Elimină pentru a opri urmărirea.';
 
   @override
   String get removeAllText => 'elimină tot';

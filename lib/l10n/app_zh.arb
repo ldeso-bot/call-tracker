@@ -239,7 +239,7 @@
     "disableLogsSharingText": "隐藏分享按钮",
     "disableLogsSharingSubText": "在通话记录中隐藏分享按钮",
     "trackListLabelText": "追踪列表",
-    "tracklistPlaceholderText": "高效管理您的追踪列表。点击右上角 + 添加联系人，左滑列表项并点击移除以取消追踪。",
+    "tracklistPlaceholderText": "高效管理您的追踪联系人。点击右上角 + 添加联系人，左滑列表项并点击移除以取消追踪。",
     "removeAllText": "全部移除",
     "trackContactLabelText": "联系人姓名",
     "trackContactText": "追踪联系人",

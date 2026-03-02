@@ -752,7 +752,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      '트랙리스트를 효율적으로 관리하세요. 연락처를 추가하려면 오른쪽 상단의 +를 누르고, 리스트 항목을 왼쪽으로 스와이프한 후 제거를 눌러 추적을 해제하세요.';
+      '추적 중인 연락처를 효율적으로 관리하세요. 연락처를 추가하려면 오른쪽 상단의 +를 누르고, 리스트 항목을 왼쪽으로 스와이프한 후 제거를 눌러 추적을 해제하세요.';
 
   @override
   String get removeAllText => '모두 제거';

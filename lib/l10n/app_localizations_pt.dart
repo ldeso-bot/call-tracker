@@ -796,7 +796,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tracklistPlaceholderText =>
-      'Gerencie sua lista de acompanhamento de forma eficiente. Toque em + (canto superior direito) para adicionar um contato, deslize um item da lista para a esquerda e toque em Remover para parar de acompanhar.';
+      'Gerencie seus contatos rastreados de forma eficiente. Toque em + (canto superior direito) para adicionar um contato, deslize um item da lista para a esquerda e toque em Remover para parar de acompanhar.';
 
   @override
   String get removeAllText => 'remover tudo';
